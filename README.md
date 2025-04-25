@@ -1,6 +1,6 @@
 PASOS PARA REPRODUCIR LOS DATOS INCLUIDOS EN LA RECLAMACION
 
-Testado en Ubuntu 24.04
+(Testado en Ubuntu 24.04)
 
 1. Instalar dependencias
 ```
@@ -18,7 +18,7 @@ python extractraer_datos_consumo.py facturas_fenie_energia
 ```
 Este comando generará un archivo `consumo.csv` con los datos del consumo eléctrico correspondientes a cada factura.
 
-4. El notebook `analisis_facturas.ipynb` contiene el código para generar los datos mensuales medios de consumo y gráficas usadas en la reclamación. Puede visualizarse en github directamente abriendo el archivo.Para ejecutar las celdas ábralo con su herramienta preferida o, alternativamente, puede abrirlo en google colab:
+4. El notebook `analisis_facturas.ipynb` contiene el código para generar los datos de consumo medio y gráficas usadas en la reclamación. Puede visualizarse en github directamente abriendo dicho archivo.Para ejecutar las celdas ábralo con su herramienta preferida o, alternativamente, puede abrirlo en google colab:
 https://colab.research.google.com/github/EloyRC/analisis-facturas-reclamacion/blob/main/analisis_facturas.ipynb
 
 
